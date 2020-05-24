@@ -2,6 +2,8 @@
 <html>
 <head> 
     <title>Pavan Boina</title>
+    <link rel="shortcut icon" type="image/x-icon" href="https://scontent.fhyd6-1.fna.fbcdn.net/v/t31.0-8/18700520_725867757597801_644943367296350260_o.jpg?_nc_cat=107&_nc_sid=7aed08&_nc_oc=AQlWMUm-NK2VBjPz2BDUpHf83A0tjmGRm1UjGuBOwOLNRmUPKpVc8oHOtahBB4aS6V5CrWJe0-Ie3Au8EZpqJQ8S&_nc_ht=scontent.fhyd6-1.fna&oh=6ff34c88af231e0a92023a90d53a75a4&oe=5EEEB49E">
+
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
@@ -141,29 +143,181 @@ th, td {
   text-align: left;
   border-bottom: 3px solid #ddd;
 }
+.slideshow-container {
+  position: relative;
+  background: transparent;
+}
 
+/* Slides */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: move;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: goldenrod;
+  font-weight: bold;
+  font-size: 50px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+}
+
+/* The dot/bullet/indicator container */
+.dot-container {
+    text-align: center;
+    padding: 20px;
+    background: slateblue;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color:red;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* Add a background color to the active dot/circle */
+.active, .dot:hover {
+  background-color: greenyellow;
+}
 tr:hover {background-color: aqua;}
 </style>
 </head>
 <body>
   <div class="topnav">
-    <a href="https://pavanbsp.github.io/UID_project-1st-year/index.html" style="font-family: Marker Felt, fantasy;">Home</a>
+    <a href="https://pavanbsp.github.io/UID_project-1st-year/home.html" style="font-family: Marker Felt, fantasy;">Home</a>
     <a href="https://pavanbsp.github.io/UID_project-1st-year/about.html" style="font-family: OCR A Std, monospace;">About</a>
     <a href="https://pavanbsp.github.io/UID_project-1st-year/education.html" style="font-family: Apple Chancery, cursive;">Education</a>
     <a href="https://pavanbsp.github.io/UID_project-1st-year/contact.html" style="font-family: Bradley Hand, cursive;">Contact</a>
+    <a href="https://pavanbsp.github.io/UID_project-1st-year/index.html" style="font-family: Bradley Hand, cursive;float: right;">Log out</a>
   </div>
+<br>
+  <div class="slideshow-container">
 
-  <h1 style="font-family: 'Niconne',sans-serif;color: deeppink;font-size: 40px;background-color: ghostwhite;">Primary education</h1>
-  <p style="font-family: Stencil Std, fantasy, monospace;color:darkred red;font-size: 30px; background-color: rgba(58, 57, 57, 0.25);"><b>I completed my schooling in sri chaitanya techno school
-   in my home town.Its a school with state board education,we are not given any coaching on programming.we are always prepared for jee,advance.</b></p>
+    <div class="mySlides">
+      <center><h1 style="font-family: 'Niconne',sans-serif;color: deeppink;font-size: 40px;background-color: ghostwhite;">Primary education</h1>
+        <img src="https://thumbs.dreamstime.com/b/vector-illustration-school-building-cartoon-isolated-white-background-86002256.jpg" style="float: none;width: 40%;height: 450px;">
+        <p style="font-family: Stencil Std, fantasy, monospace;color: orange;font-size: 30px; background-color: rgba(58, 57, 57, 0.25);"><b>I completed my schooling in sri chaitanya techno school
+         in my home town.Its a school with state board education,we are not given any coaching on programming.we are always prepared for jee,advance.</b></p>
+      </center>
+    </div>
     
-   <h1 style="font-family: 'Niconne',sans-serif;color: deeppink;font-size: 40px;background-color: ghostwhite;">Secondary education</h1>
-   <p style="font-family: Stencil Std, fantasy, monospace;color: mediumblue;font-size: 30px; background-color: rgba(58, 57, 57, 0.25);"><b>I completed my +1 and +2 in sri chaitanya junior college
-    in my home town,we are trained for jee entrance examination there,i have many beautiful memories there to remember.</b></p>
-  
-    <h1 style="font-family: 'Niconne',sans-serif;color: deeppink;font-size: 40px;background-color: ghostwhite;">Engineering</h1>
-    <img src="https://www.amrita.edu/sites/default/files/campus_images/amritapuri_campus17.jpg" style="float: left;width: 40%;height: 40%;">
-    <p style="font-family: Stencil Std, fantasy, monospace;color: yellow;font-size: 30px; background-color: rgba(58, 57, 57, 0.25);">
-      <b> Currently i am doing my b.tech in amrita university located in kerala,i left my home for the first time to do btech,The campus was 
-        very beautiful which is situated in a village called amritapuri.
-      </b></p>
+    <div class="mySlides">
+      <center>   <h1 style="font-family: 'Niconne',sans-serif;color: deeppink;font-size: 40px;background-color: ghostwhite;">Secondary education</h1>
+        <img src="https://cdn.telanganatoday.com/wp-content/uploads/2018/12/sri-chaitanya-group-of-inst.jpg" style="float: none;width: 40%;height: 450px;">
+        <p style="font-family: Stencil Std, fantasy, monospace;color: mediumturquoise;font-size: 30px; background-color: rgba(58, 57, 57, 0.25);"><b>I completed my +1 and +2 in sri chaitanya junior college
+         in my home town,we are trained for jee entrance examination there,i have many beautiful memories there to remember.</b></p></center>
+    </div>
+    
+    <div class="mySlides">
+      <center><h1 style="font-family: 'Niconne',sans-serif;color: deeppink;font-size: 40px;background-color: ghostwhite;">Engineering</h1>
+        <img src="https://www.amrita.edu/sites/default/files/campus_images/amritapuri_campus17.jpg" style="float: none;width: 40%;height: 40%;">
+        <p style="font-family: Stencil Std, fantasy, monospace;color: yellow;font-size: 30px; background-color: rgba(58, 57, 57, 0.25);">
+          <b> Currently i am doing my b.tech in amrita university located in kerala,i left my home for the first time to do btech,The campus was 
+            very beautiful situated in a village called amritapuri.
+          </b></p>
+      </center>
+    </div>
+    
+    <a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>
+    
+    </div>
+    
+    <div class="dot-container">
+      <span class="dot" onclick="currentSlide(1)"></span> 
+      <span class="dot" onclick="currentSlide(2)"></span> 
+      <span class="dot" onclick="currentSlide(3)"></span> 
+    </div>
+    
+    <script>
+      alert("There is also a automatic slideshow for 5sec")
+var slideIndex = 0;
+showSlides();
+//add the global timer variable
+var slides,dots,timer;
+
+function showSlides() {
+    var i;
+    slides = document.getElementsByClassName("mySlides");
+    dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex> slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    //put the timeout in the timer variable
+    timer = setTimeout(showSlides, 5000); // Change image every 8 seconds
+}
+
+function plusSlides(position) {
+    //clear/stop the timer
+    clearTimeout(timer);
+    slideIndex +=position;
+    if (slideIndex> slides.length) {slideIndex = 1}
+    else if(slideIndex<1){slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    //create a new timer
+    timer = setTimeout(showSlides, 5000);
+}
+
+function currentSlide(index) {
+    //clear/stop the timer
+    clearTimeout(timer);
+    if (index> slides.length) {index = 1}
+    else if(index<1){index = slides.length}
+    //set the slideIndex with the index of the function
+    slideIndex = index;
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[index-1].style.display = "block";  
+    dots[index-1].className += " active";
+    //create a new timer
+    timer = setTimeout(showSlides, 5000);
+}
+    </script>
+    
+    
+    </body>
+    </html> 
+    
